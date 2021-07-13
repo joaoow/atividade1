@@ -8,9 +8,10 @@ public class aula_03 {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("peça 2 números e a soma");
+        System.out.println("peça 2 números e a soma: ");
         int num1 = scan.nextInt();
         int num2 = scan.nextInt();
         System.out.println("a soma dos 2 números foi: " + num1 + num2);
+        System.out.println(num1 + num2);
     }
 }
